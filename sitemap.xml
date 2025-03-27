@@ -9,7 +9,47 @@
 
 <url>
   <loc>https://sdley.github.io/</loc>
-  <lastmod>2025-03-27T00:05:09+00:00</lastmod>
+  <lastmod>2025-03-27T13:08:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<url>
+<loc>https://sdley.github.io/#about</loc>
+<lastmod>2025-03-27T13:08:20+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<!-- 
+  # What does <priority> mean?
+  It defines how important a specific page is compared to other pages on your site (not compared to 
+  other websites).
+  The priority of this URL relative to other URLs on your site. Valid values range from 0.0 to 1.0. 
+  This value does not affect how your pages are compared to pages on other sites—it only lets the 
+  search engines know which pages you deem most important for the crawlers.
+  
+  ## Valid values for <priority>
+  Range: 0.0 (least important) to 1.0 (most important)
+  Default if not specified: 0.5 
+
+  ## 🤓 Does Google strictly follow it?
+  Not really. It's more of a hint than a rule.
+
+  Google and other search engines may use it to prioritize crawling, but they ultimately rely on page 
+  structure, backlinks, content, and usage signals.
+
+  Still, setting <priority> helps give clearer signals — especially useful on large sites or SPAs like
+  ours where all content is under one domain.
+-->
+
+<url>
+<loc>https://sdley.github.io/#portfolio</loc>
+<lastmod>2025-03-27T13:08:20+00:00</lastmod>
+</url>
+
+<url>
+<loc>https://sdley.github.io/#contact</loc>
+<lastmod>2025-03-27T13:08:20+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 
 
